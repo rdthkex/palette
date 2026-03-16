@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Palette Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Color Palette Generator</h1>
+    <p class="subtitle">스페이스바 또는 버튼을 눌러 새 팔레트를 생성하세요</p>
+    <div class="palette" id="palette">
+      <div class="color-card" data-index="0">
+        <div class="color-box"></div>
+        <div class="color-info">
+          <span class="hex">#FFFFFF</span>
+          <button class="lock-btn" title="잠금">🔓</button>
+        </div>
+      </div>
+      <div class="color-card" data-index="1">
+        <div class="color-box"></div>
+        <div class="color-info">
+          <span class="hex">#FFFFFF</span>
+          <button class="lock-btn" title="잠금">🔓</button>
+        </div>
+      </div>
+      <div class="color-card" data-index="2">
+        <div class="color-box"></div>
+        <div class="color-info">
+          <span class="hex">#FFFFFF</span>
+          <button class="lock-btn" title="잠금">🔓</button>
+        </div>
+      </div>
+      <div class="color-card" data-index="3">
+        <div class="color-box"></div>
+        <div class="color-info">
+          <span class="hex">#FFFFFF</span>
+          <button class="lock-btn" title="잠금">🔓</button>
+        </div>
+      </div>
+      <div class="color-card" data-index="4">
+        <div class="color-box"></div>
+        <div class="color-info">
+          <span class="hex">#FFFFFF</span>
+          <button class="lock-btn" title="잠금">🔓</button>
+        </div>
+      </div>
+    </div>
+    <button class="generate-btn" id="generateBtn">새 팔레트 생성</button>
+    <p class="toast" id="toast">클립보드에 복사되었습니다!</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
